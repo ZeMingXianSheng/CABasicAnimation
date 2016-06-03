@@ -15,6 +15,13 @@
 		907733261D001DE300B487B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907733241D001DE300B487B3 /* LaunchScreen.storyboard */; };
 		907733311D001DE300B487B3 /* CirleProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907733301D001DE300B487B3 /* CirleProgressViewDemoTests.m */; };
 		9077333C1D001DE300B487B3 /* CirleProgressViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077333B1D001DE300B487B3 /* CirleProgressViewDemoUITests.m */; };
+		9077334C1D001F2500B487B3 /* CircleProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077334B1D001F2500B487B3 /* CircleProgressLayer.m */; };
+		9077334F1D001F3B00B487B3 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077334E1D001F3B00B487B3 /* CircleProgressView.m */; };
+		907733591D01154A00B487B3 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907733581D01154A00B487B3 /* AnimationViewController.m */; };
+		90C1D48A1D0117FA00A5E52E /* wrong_mid_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1D4891D0117FA00A5E52E /* wrong_mid_default.png */; };
+		90C1D48C1D011D7C00A5E52E /* right_mid_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C1D48B1D011D7C00A5E52E /* right_mid_default.png */; };
+		90C1D48E1D0121BB00A5E52E /* per0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90C1D48D1D0121BB00A5E52E /* per0.jpg */; };
+		90C1D4911D0135C600A5E52E /* CAAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C1D4901D0135C600A5E52E /* CAAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		907733371D001DE300B487B3 /* CirleProgressViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirleProgressViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9077333B1D001DE300B487B3 /* CirleProgressViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirleProgressViewDemoUITests.m; sourceTree = "<group>"; };
 		9077333D1D001DE300B487B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9077334A1D001F2500B487B3 /* CircleProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressLayer.h; sourceTree = "<group>"; };
+		9077334B1D001F2500B487B3 /* CircleProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressLayer.m; sourceTree = "<group>"; };
+		9077334D1D001F3B00B487B3 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		9077334E1D001F3B00B487B3 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		907733571D01154A00B487B3 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		907733581D01154A00B487B3 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		90C1D4891D0117FA00A5E52E /* wrong_mid_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong_mid_default.png; sourceTree = "<group>"; };
+		90C1D48B1D011D7C00A5E52E /* right_mid_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_mid_default.png; sourceTree = "<group>"; };
+		90C1D48D1D0121BB00A5E52E /* per0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = per0.jpg; sourceTree = "<group>"; };
+		90C1D48F1D0135C600A5E52E /* CAAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationController.h; sourceTree = "<group>"; };
+		90C1D4901D0135C600A5E52E /* CAAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,18 @@
 		907733151D001DE300B487B3 /* CirleProgressViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				90C1D48D1D0121BB00A5E52E /* per0.jpg */,
+				90C1D48B1D011D7C00A5E52E /* right_mid_default.png */,
+				90C1D4891D0117FA00A5E52E /* wrong_mid_default.png */,
+				907733491D001F0B00B487B3 /* ProgressView */,
 				907733191D001DE300B487B3 /* AppDelegate.h */,
 				9077331A1D001DE300B487B3 /* AppDelegate.m */,
 				9077331C1D001DE300B487B3 /* ViewController.h */,
 				9077331D1D001DE300B487B3 /* ViewController.m */,
+				907733571D01154A00B487B3 /* AnimationViewController.h */,
+				907733581D01154A00B487B3 /* AnimationViewController.m */,
+				90C1D48F1D0135C600A5E52E /* CAAnimationController.h */,
+				90C1D4901D0135C600A5E52E /* CAAnimationController.m */,
 				9077331F1D001DE300B487B3 /* Main.storyboard */,
 				907733221D001DE300B487B3 /* Assets.xcassets */,
 				907733241D001DE300B487B3 /* LaunchScreen.storyboard */,
@@ -138,6 +164,17 @@
 				9077333D1D001DE300B487B3 /* Info.plist */,
 			);
 			path = CirleProgressViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		907733491D001F0B00B487B3 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				9077334A1D001F2500B487B3 /* CircleProgressLayer.h */,
+				9077334B1D001F2500B487B3 /* CircleProgressLayer.m */,
+				9077334D1D001F3B00B487B3 /* CircleProgressView.h */,
+				9077334E1D001F3B00B487B3 /* CircleProgressView.m */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +282,9 @@
 			files = (
 				907733261D001DE300B487B3 /* LaunchScreen.storyboard in Resources */,
 				907733231D001DE300B487B3 /* Assets.xcassets in Resources */,
+				90C1D48C1D011D7C00A5E52E /* right_mid_default.png in Resources */,
+				90C1D48A1D0117FA00A5E52E /* wrong_mid_default.png in Resources */,
+				90C1D48E1D0121BB00A5E52E /* per0.jpg in Resources */,
 				907733211D001DE300B487B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9077334F1D001F3B00B487B3 /* CircleProgressView.m in Sources */,
+				90C1D4911D0135C600A5E52E /* CAAnimationController.m in Sources */,
+				9077334C1D001F2500B487B3 /* CircleProgressLayer.m in Sources */,
 				9077331E1D001DE300B487B3 /* ViewController.m in Sources */,
+				907733591D01154A00B487B3 /* AnimationViewController.m in Sources */,
 				9077331B1D001DE300B487B3 /* AppDelegate.m in Sources */,
 				907733181D001DE300B487B3 /* main.m in Sources */,
 			);
@@ -498,6 +542,7 @@
 				907733421D001DE300B487B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907733431D001DE300B487B3 /* Build configuration list for PBXNativeTarget "CirleProgressViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +551,7 @@
 				907733451D001DE300B487B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907733461D001DE300B487B3 /* Build configuration list for PBXNativeTarget "CirleProgressViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +560,7 @@
 				907733481D001DE300B487B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

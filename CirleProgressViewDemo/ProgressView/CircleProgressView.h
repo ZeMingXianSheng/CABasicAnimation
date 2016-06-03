@@ -10,4 +10,6 @@
 
 @interface CircleProgressView : UIView
 
+@property (nonatomic, assign) CGFloat progress;
+
 @end

@@ -9,5 +9,5 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface CircleProgressLayer : CALayer
-
+@property (nonatomic, assign) CGFloat progress;
 @end

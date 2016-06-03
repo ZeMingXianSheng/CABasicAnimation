@@ -9,19 +9,24 @@
 #import "CAAnimationController.h"
 
 @interface CAAnimationController ()
-
+@property (nonatomic, strong) CAAnimation *caanimation;
 @end
 
 @implementation CAAnimationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.caanimation = [CAAnimation animation];
+    //动画的添加
+    [self.view.layer addAnimation:_caanimation forKey:@"CAAnimationLayer"];
+    //动画的移除
+    [self.view.layer removeAnimationForKey:@"CAAnimationLayer"];
+    [self.view.layer removeAllAnimations];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 /*
